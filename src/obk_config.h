@@ -462,6 +462,11 @@
 // allow testing, remove before merging
 //#define ENABLE_DRIVER_DCF77					1
 
+// disable BLE stack AM
+#define ENABLE_DRIVER_BLE       0 
+// enable DDP driver AM
+#define ENABLE_DRIVER_DDP       1
+
 #if (OBK_VARIANT == OBK_VARIANT_BTPROXY)
 #define ENABLE_BT_PROXY							1
 #define ENABLE_DRIVER_ESPHOME_API				1
